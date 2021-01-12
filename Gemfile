@@ -31,7 +31,7 @@ gem 'middleman-gh-pages'
 gem "middleman-livereload", ">= 3.4.6"
 
 # Needed for Slate / middleman
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 # Cross-templating language block fix for Ruby 1.8
 platforms :mri_18 do
